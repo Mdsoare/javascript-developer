@@ -4,7 +4,7 @@
     <span> Formação JavaScript Developer</span>
 </h1>
 
-Repositório criado para fins educacionais, com a disponibilização de materiais de apoio do curso **Formação JavaScript Developer** da [Digital Innovation One](https://www.dio.me/).
+Repositório criado para fins educacionais, com a disponibilização de materiais de apoio da **Formação JavaScript Developer** da [Digital Innovation One](https://www.dio.me/).
 <br>
 <img width="70px" background-color="black" src="https://hermes.dio.me/tracks/55e7040f-775b-47e5-a8fb-69d002ca17a9.png">
 
@@ -16,7 +16,7 @@ O curso é voltado para iniciantes em programação FrontEnd com a linguagem Jav
 
 ## Ferramentas 🖥️
 [![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc) 
-[![Github](https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github&logoColor=E94D5F)](https://docs.gitlab.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)(https://docs.github.com/)
 [![JavaScript](https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)](https://jsdoc.app/)
 
 ## Percurso ⌛
