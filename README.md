@@ -6,17 +6,19 @@
 
 Repositório criado para fins educacionais, com a disponibilização de materiais de apoio da **Formação JavaScript Developer** da [Digital Innovation One](https://www.dio.me/).
 <br>
-<img width="70px" background-color="black" src="https://hermes.dio.me/tracks/55e7040f-775b-47e5-a8fb-69d002ca17a9.png">
-
+<br>
+<img width="100px" background-color="black" src="https://hermes.dio.me/tracks/55e7040f-775b-47e5-a8fb-69d002ca17a9.png">
 [![Link do Curso](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://web.dio.me/track/6e3cb1b0-bbcc-4cab-8d5c-c2c7acec960d) 
 [![Link do Curso](https://img.shields.io/badge/Acesse%20o%20Curso%20na%20Plataforma-E94D5F?style=for-the-badge)](https://web.dio.me/track/6e3cb1b0-bbcc-4cab-8d5c-c2c7acec960d)
+<br>
+<br>
 
 ## Objetivo 🎯
 O curso é voltado para iniciantes em programação FrontEnd com a linguagem JavaScript, com uma abordagem de ensino totalmente imersiva e prática. Nesta formação são ministrados os fundamentos da linguagem de programação até o seu papel essencial na Web atualmente. A formação traz uma dinâmica diferente do convencional, onde o expert conduz todo o primeiro módulo usando a técnica de "pair programming", ensinando o JavaScript do zero para um profissional em transição de carreira. Nos dois módulos seguintes, são apresentados os conceitos necessários para utilizar o JavaScript na Web, com ênfase no consumo de APIs, convenções e boas práticas. Por fim, o aluno é encorajado a criar seu próprio currículo online com a identidade visual da [DIO](https://www.dio.me/).
 
 ## Ferramentas 🖥️
 [![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc) 
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)(https://docs.github.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
 [![JavaScript](https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)](https://jsdoc.app/)
 
 ## Percurso ⌛
@@ -107,11 +109,11 @@ O curso é voltado para iniciantes em programação FrontEnd com a linguagem Jav
 </table>
 
 ## Referências 🔎
-- [GIT DOCUMENTATION.](https://git-scm.com/doc)
-- [GITHUB DOCS](https://docs.github.com/)
+- [Git Documentation](https://git-scm.com/doc)
+- [Github Docs](https://docs.github.com/)
 - [JavaScript Documentation Standards](https://developer.wordpress.org/coding-standards/inline-documentation-standards/javascript/)
-- [MDN WEB DOCS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [W3SHOOLS](https://www.w3schools.com/js/)
+- [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [W3Shools](https://www.w3schools.com/js/)
 
 ##
 <div align="center">Disponibilizado por <a href="https://github.com/Mdsoare">🕶 Marcelo Soares ®</a>.</div>
