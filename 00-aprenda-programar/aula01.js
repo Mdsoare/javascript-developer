@@ -33,7 +33,7 @@ var Früh = "foobar";
    de múltiplas linhas.
  */
 
-/* Você não pode, porém, /* aninhar comentários */ SyntaxError */
+// /* Você não pode, porém, /* aninhar comentários */ SyntaxError */
 
 // DECLARAÇÕES:
 
