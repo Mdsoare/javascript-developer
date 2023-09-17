@@ -41,7 +41,7 @@ var Früh = "foobar";
 
 // var   >>> Declara uma variável, opcionalmente, inicializando-a com um valor.
 // let   >>> Declara uma variável local de escopo do bloco, opcionalmente, inicializando-a com um valor.
-// const >>> Declara uma constante de escopo de bloco, apenas de leitura.
+// const >>> Declara uma constante de escopo de bloco, apenas de leitura. É obrigatório iniciá-la com valor.
 
 // DECLARANDO VARIÁVEIS:
  
@@ -153,26 +153,6 @@ var myvar = "my value";
   var myvar = "local value";
 })();
 
-// Os exemplos acima serão interpretados como:
-
-/**
- * Exemplo 1
- */
-var x;
-console.log(x === undefined); // exibe "true"
-x = 3;
-
-/**
- * Exemplo 2
- */
-var myvar = "um valor";
-
-(function () {
-  var myvar;
-  console.log(myvar); // undefined
-  myvar = "valor local";
-})();
-
 // Devido o hoisting, todas as declarações var em uma função devem ser colocadas no início da função. 
 // Essa recomendação de prática deixa o código mais legível.
 
@@ -180,7 +160,7 @@ var myvar = "um valor";
 
 // Variáveis globais são propriedades do objeto global. Em páginas web o objeto global é a window, 
 // assim pode-se configurar e acessar variáveis globais utilizando a sintaxe window.variavel.
-// Consequentemente, pode-SE acessar variáveis globais declaradas em uma janela ou frame ou frame de outra janela. 
+// Consequentemente, pode-se acessar variáveis globais declaradas em uma janela ou frame ou frame de outra janela. 
 // Por exemplo, se uma variável chamada phoneNumber é declarada em um documento,
 // pode-se consultar esta variável de um frame como parent.phoneNumber.
 
