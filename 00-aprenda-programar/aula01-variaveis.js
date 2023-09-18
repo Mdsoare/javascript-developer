@@ -194,4 +194,9 @@ function f() {
   //declarações
 }
 
-// FONTE: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+// FONTE:
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+// https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps
+
+//Teste online:
+// https://developer.mozilla.org/pt-BR/play
