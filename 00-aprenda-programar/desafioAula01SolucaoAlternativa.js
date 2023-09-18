@@ -12,7 +12,7 @@ AO FINAL, IMPRIMA NA CONSOLE O VALOR QUE SERÁ GASTO DE COMBUSTÍVEL PARA ESTA V
 */
 
 // Função que calcula os gastos de combustível em R$
-function calculoGastoCobustivel(){
+function calculaGastoCombustivel(){
     // Recebendo valores do usuários:
     const distanciaEmKm = parseFloat(prompt('Digite a distância em quilômetros:\n'));
     const kmPorLitros = parseFloat(prompt('Digite a média de quilômetros por litro:\n'));
@@ -29,7 +29,7 @@ function calculoGastoCobustivel(){
     const valorGasto = litrosConsumidos * precoCombustivel;
 
     // Resultado em 2 casas decimais:
-    console.log('O custo total de combustível para esta viagem será de R$ ' + valorGasto.toFixed(2));
+    console.log(`O custo total de combustível para esta viagem será de R$ ${valorGasto.toFixed(2)}`);
 }
 
 // Função menu de entrada:
@@ -39,7 +39,7 @@ function menu(){
         const escolha = parseInt(prompt('Escolha uma opção:\n1 - Calcular\n2 - Sair'));
             switch (escolha){
                 case 1:
-                    calculoGastoCobustivel();
+                    calculaGastoCombustivel();
                     break;
                 case 2:
                     continuar = false; // Finalizar o programa
