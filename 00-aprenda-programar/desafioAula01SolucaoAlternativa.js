@@ -11,7 +11,7 @@ DESAFIO: FAÇA UMA PROGRAMA PARA CALCULAR O VALOR DE UMA VIAGEM. DEVE TER 3 VARI
 AO FINAL, IMPRIMA NA CONSOLE O VALOR QUE SERÁ GASTO DE COMBUSTÍVEL PARA ESTA VIAGEM.
 */
 
-// Funçã que calcula os gastos de combustível em R$
+// Função que calcula os gastos de combustível em R$
 function calculoGastoCobustivel(){
     // Recebendo valores do usuários:
     const distanciaEmKm = parseFloat(prompt('Digite a distância em quilômetros:\n'));
