@@ -32,7 +32,7 @@ O curso é voltado para iniciantes em programação FrontEnd com a linguagem Jav
   </thead>
   <tbody align="left">
     <tr>
-      <td>01</td>
+      <td>00</td>
       <td>Aprenda a Programar do Zero com JavaScript</td>
       <td align="center">
         <a href="https://github.com/Mdsoare/javascript-developer/tree/main/00-aprenda-programar">
@@ -41,7 +41,7 @@ O curso é voltado para iniciantes em programação FrontEnd com a linguagem Jav
       </td>
     </tr>
     <tr>
-      <td>02</td>
+      <td>01</td>
       <td>JavaScript para Web - HTML/CSS/API</td>
       <td align="center">
         <a href="https://github.com/Mdsoare/javascript-developer/tree/main/01-fundamentos-html-css-api">
@@ -50,7 +50,7 @@ O curso é voltado para iniciantes em programação FrontEnd com a linguagem Jav
       </td>
     </tr>
     <tr>
-      <td>03</td>
+      <td>02</td>
       <td>Conceitos Avançados em JavaScript</td>
       <td align="center">
         <a href="https://github.com/Mdsoare/javascript-developer/tree/main/02-conceitos-avancados">
@@ -59,7 +59,7 @@ O curso é voltado para iniciantes em programação FrontEnd com a linguagem Jav
       </td>
     </tr>
     <tr>
-      <td>04</td>
+      <td>03</td>
       <td>Currículo Online - HTML/CSS/JavaScript</td>
       <td align="center">
         <a href="https://github.com/Mdsoare/javascript-developer/tree/main/03-curriculo-online">
