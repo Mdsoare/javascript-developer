@@ -11,7 +11,7 @@ DESAFIO: FAÇA UMA PROGRAMA PARA CALCULAR O VALOR DE UMA VIAGEM. DEVE TER 3 VARI
 AO FINAL, IMPRIMA NA CONSOLE O VALOR QUE SERÁ GASTO DE COMBUSTÍVEL PARA ESTA VIAGEM.
 */
 
-function calculoGastoCobustivel(distanciaEmKm, kmPorLitros, precoCombustivel){
+function calculoGastoCombustivel(distanciaEmKm, kmPorLitros, precoCombustivel){
     // Cálculo:
     const litrosConsumidos = distanciaEmKm / kmPorLitros;
     const valorGasto = litrosConsumidos * precoCombustivel;
@@ -21,4 +21,4 @@ function calculoGastoCobustivel(distanciaEmKm, kmPorLitros, precoCombustivel){
 }
 
 // Chamando a função com valores aleatórios
-calculoGastoCobustivel(97.6, 10, 5.79);
+calculoGastoCombustivel(97.6, 10, 5.79);
