@@ -14,7 +14,7 @@ IMC em adultos:
 
 function calculoIMC(peso, altura){
     
-    let imc = peso / (altura * altura);
+    let imc = peso / Math.pow(altura, 2);
     
     if (imc < 18.5) {
         console.log(`O IMC é ${imc.toFixed(2)}.\n\nAbaixo do peso...`);
