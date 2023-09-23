@@ -12,16 +12,16 @@ Data: 23/09/2023
 function calculoPrecoProduto(codigo, preco) {
 
     switch (codigo) {
-        case 001:
+        case 1:
             console.log(`O valor a ser pago é de R$ ${(preco * 0.9).toFixed(2)}`);
             break;
-        case 002:
+        case 2:
             console.log(`O valor a ser pago é de R$ ${(preco * 0.85).toFixed(2)}`);
             break;
-        case 003:
+        case 3:
             console.log(`O valor a ser pago é de R$ ${(preco).toFixed(2)}, divididos em duas parcelas`);
             break;
-        case 004:
+        case 4:
             console.log(`O valor a ser pago é de R$ ${(preco * 1.1).toFixed(2)}, divididos em três ou mais parcelas`);
             break;
         default:
@@ -29,8 +29,8 @@ function calculoPrecoProduto(codigo, preco) {
     }
 }
 
-calculoPrecoProduto(001, 100);
-calculoPrecoProduto(002, 100);
-calculoPrecoProduto(003, 100);
-calculoPrecoProduto(004, 100);
-calculoPrecoProduto(005, 100);
+calculoPrecoProduto(1, 100);
+calculoPrecoProduto(2, 100);
+calculoPrecoProduto(3, 100);
+calculoPrecoProduto(4, 100);
+calculoPrecoProduto(5, 100);
