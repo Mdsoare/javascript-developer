@@ -12,27 +12,27 @@ IMC em adultos:
 - Acima de 40, obesidade mórbida;
 */
 
-function calculoIMC(peso, altura){
-    
+function calculoIMC(peso, altura) {
+
     let imc = peso / Math.pow(altura, 2);
-    
+
     if (imc < 18.5) {
         console.log(`O IMC é ${imc.toFixed(2)}.\n\nAbaixo do peso...`);
-    } else if (imc >= 18.5 && imc <= 24.9){
+    } else if (imc >= 18.5 && imc <= 24.9) {
         console.log(`O IMC é ${imc.toFixed(2)}.\n\nPeso normal...`);
-    } else if (imc >= 25 && imc <= 29.9){
+    } else if (imc >= 25 && imc <= 29.9) {
         console.log(`O IMC é ${imc.toFixed(2)}.\n\nSobrepeso...`);
-    } else if (imc >= 30 && imc <= 39.9){
+    } else if (imc >= 30 && imc <= 39.9) {
         console.log(`O IMC é ${imc.toFixed(2)}.\n\nObesidade moderada...`);
     } else {
         console.log(`O IMC é ${imc.toFixed(2)}.\n\nObesidade mórbida...`);
     }
 }
 
-calculoIMC(60,1.83);
-calculoIMC(80,1.83);
-calculoIMC(90,1.83);
-calculoIMC(100,1.83);
-calculoIMC(110,1.83);
-calculoIMC(120,1.83);
-calculoIMC(150,1.83);
+calculoIMC(60, 1.83);
+calculoIMC(80, 1.83);
+calculoIMC(90, 1.83);
+calculoIMC(100, 1.83);
+calculoIMC(110, 1.83);
+calculoIMC(120, 1.83);
+calculoIMC(150, 1.83);
