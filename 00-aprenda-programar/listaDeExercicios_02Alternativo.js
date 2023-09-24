@@ -36,7 +36,7 @@ function main() {
     let imc = calculoImc(60, 1.83);
     console.log(classificaImc(imc));
 
-    imc = calculoImc(60, 1.83);
+    imc = calculoImc(70, 1.83);
     console.log(classificaImc(imc));
 
     imc = calculoImc(80, 1.83);
@@ -59,7 +59,3 @@ function main() {
 }
 
 main();
-
-
-
-
