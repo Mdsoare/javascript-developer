@@ -31,7 +31,17 @@ function classificaImc(imc) {
     }
 }
 
-function main() {
+/*
+Exemplo de IIFE (Immediately Invoked Function Expression) 
+é uma função em JavaScript que é executada assim que definida. 
+É um Design Pattern também conhecido como Self-Executing Anonymous Function 
+e contém duas partes principais. 
+A primeira é a função anônima cujo escopo léxico é encapsulado entre parênteses.
+
+FONTE: https://developer.mozilla.org/pt-BR/docs/Glossary/IIFE
+*/
+
+(function () {
 
     let imc = calculoImc(60, 1.83);
     console.log(classificaImc(imc));
@@ -56,6 +66,4 @@ function main() {
 
     imc = calculoImc(150, 1.83);
     console.log(classificaImc(imc));
-}
-
-main();
+})();
