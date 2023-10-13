@@ -71,23 +71,7 @@ O curso é voltado para iniciantes em programação FrontEnd com a linguagem Jav
   <tfoot></tfoot>
 </table>
 
-## Ajuda - Convenção de Commits 💻
-
-| Tipo de Commit | Descrição                                                                                                 |
-| -------------- | --------------------------------------------------------------------------------------------------------- |
-| `feat`         | Adiciona uma nova funcionalidade ao projeto.                                                              |
-| `fix`          | Corrige um bug ou problema no projeto.                                                                    |
-| `docs`         | Altera a documentação do projeto. Ex.: README, comentários no código.                                     |
-| `style`        | Realiza mudanças na aparência, sem alterar a funcionalidade.                                              |
-| `refactor`     | Realiza mudanças no código que não alteram a funcionalidade.                                              |
-| `test`         | Adiciona ou modifica testes no projeto.                                                                   |
-
-#### Exemplo commit
-
-`feat: adicionado novo arquivo`
-<br>
-
-## ✨ ️Redes Socias ✨
+## Redes Socias
 
 [![PerfilDIO](https://img.shields.io/badge/DIO-0077B5?style=for-the-badge&logo=dio&logoColor=white)](https://web.dio.me/users/marcelo_soares92)
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://github.com/Mdsoare/)
