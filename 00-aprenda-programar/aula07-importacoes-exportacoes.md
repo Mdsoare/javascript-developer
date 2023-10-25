@@ -205,3 +205,85 @@ print(maiorValorEncontrado);
 ```
 Saída:
 > 98
+
+3. Faça um programa que receba a média do aluno e retorne "Reprovado" se a média foi menor que 5, "Recuperação" se a média foi acima de 5 e menor do que 7 e "Aprovado" se a média for maior do que 7
+
+* Código auxiliar:
+```
+/*File: funcoesAuxiliares.js*/ 
+
+let array = [8.7, 4.9, 9.0, 5.5, 3.4, 7.7, 10.0];
+let i = 0;
+
+function gets() {
+	let valor = array[i];
+    i += 1;
+    return valor;
+
+};
+
+function print(texto){
+	console.log(texto);
+};
+
+function validaNota(nota) {
+	if ( nota >= 0 && nota < 5 ){
+    	return 'Reprovado';
+    } else if ( nota >= 5 && nota < 7 ){
+    	return 'Recuperação';
+    } else if ( nota >= 7 ) {
+    	return 'Aprovado';
+    } else{
+      return 'Erro!';
+    };
+};
+
+module.exports = { gets, print, validaNota };
+```
+
+* Código principal:
+
+```
+/*File: main.js*/
+
+const { gets, print, validaNota } = require('./prog2.js');
+
+
+for (let notas = gets(); notas !== undefined; notas = gets()) {
+	const nota = notas; 
+    print(`A nota do aluno foi de ${nota}.\nO aluno está ${validaNota(nota)}!`);
+    print('>>>>>>>>>>>>><<<<<<<<<<<<<<\n');
+};
+```
+
+Saídas:
+
+```
+A nota do aluno foi de 8.7.
+O aluno está Aprovado!
+>>>>>>>>>>>>><<<<<<<<<<<<<<
+
+A nota do aluno foi de 4.9.
+O aluno está Reprovado!
+>>>>>>>>>>>>><<<<<<<<<<<<<<
+
+A nota do aluno foi de 9.
+O aluno está Aprovado!
+>>>>>>>>>>>>><<<<<<<<<<<<<<
+
+A nota do aluno foi de 5.5.
+O aluno está Recuperação!
+>>>>>>>>>>>>><<<<<<<<<<<<<<
+
+A nota do aluno foi de 3.4.
+O aluno está Reprovado!
+>>>>>>>>>>>>><<<<<<<<<<<<<<
+
+A nota do aluno foi de 7.7.
+O aluno está Aprovado!
+>>>>>>>>>>>>><<<<<<<<<<<<<<
+
+A nota do aluno foi de 10.
+O aluno está Aprovado!
+>>>>>>>>>>>>><<<<<<<<<<<<<<
+```
