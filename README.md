@@ -2,12 +2,12 @@
     <a href="https://www.dio.me/">
      <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
     <span> Formação JavaScript Developer</span>
+    <img width="110px" background-color="black" src="https://hermes.dio.me/tracks/55e7040f-775b-47e5-a8fb-69d002ca17a9.png">
 </h1>
 
 Repositório criado para fins educacionais, com a disponibilização de materiais de apoio da **Formação JavaScript Developer** da [Digital Innovation One](https://www.dio.me/).
 <br>
 <br>
-<img width="100px" background-color="black" src="https://hermes.dio.me/tracks/55e7040f-775b-47e5-a8fb-69d002ca17a9.png">
 [![Link do Curso](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://web.dio.me/track/6e3cb1b0-bbcc-4cab-8d5c-c2c7acec960d) 
 [![Link do Curso](https://img.shields.io/badge/Acesse%20o%20Curso%20na%20Plataforma-E94D5F?style=for-the-badge)](https://web.dio.me/track/6e3cb1b0-bbcc-4cab-8d5c-c2c7acec960d)
 <br>
